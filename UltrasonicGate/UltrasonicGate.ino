@@ -43,7 +43,7 @@ const uint8_t TRIGGER_PIN_B = 4;
 const uint8_t ECHO_PIN_B = 3;
 
 /* this is the intervall by which the gate will open/close (time in milliseconds). By increasing this value the gate moves slower */
-const long speedGate = 10;
+const long speedGate = 8;
 
 /* time to wait until the gate closes automatically, if no car passes trough (time in milliseconds) */
 const long waitTimeMillis = 20000; // 20000 = 20 sec
